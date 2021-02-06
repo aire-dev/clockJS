@@ -6,7 +6,7 @@ _Reloj realizado con html5, css3 y Javascripct_
 
 _Para descargarte una copia del proyecto solo clona el repo_
 
-Puedes ver una **demo** aqui 🧮 [Proyecto Reloj JS](https://airedev-calculator.netlify.app/)
+Puedes ver una **demo** aqui 🧮 [Proyecto Reloj JS](https://aire-dev.github.io/clockJS/)
 
 
 ### Pre-requisitos 📋
