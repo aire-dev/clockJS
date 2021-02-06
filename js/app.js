@@ -4,8 +4,8 @@ setInterval(() => {
     let date = document.querySelector('#date');
     let hours = document.querySelector('#hours');
 
-    let week = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
-    let months = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Septiembre','Octubre','Noviembre','Diciembre']; 
+    let week = ['domingo','lunes','martes','miercoles','jueves','viernes','sabado'];
+    let months = ['enero','febrero','marzo','abril','mayo','junio','julio','septiembre','octubre','noviembre','diciembre']; 
     
     date.innerHTML = `${week[time.getDay()]} ${time.getDay()} de ${months[time.getMonth()]} del ${time.getFullYear()}`;
 
