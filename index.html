@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <title>Reloj JS</title>
+</head>
+<body>
+    <main>
+        <section id='clock' class="pink">
+            <article>
+                <p id="date"></p>
+            </article>
+            <article >
+              <p class="hours" id="hours"></p>  
+            </article>
+            <article>
+                <button id="btnPink" class="btn btn-pink btn-select" onclick="changeColor('pink')"><i class="fas fa-clock"></i></button>
+                <button id="btnBlue" class="btn btn-blue" onclick="changeColor('blue')"><i class="fas fa-clock"></i></button>
+                <button id="btnGreen" class="btn btn-green" onclick="changeColor('green')"><i class="fas fa-clock"></i></button>
+            </article>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>

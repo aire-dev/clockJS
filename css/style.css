@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+body {
+  background: #000;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  width: 80%;
+  text-align: center;
+}
+
+p {
+  font-family: "Major Mono Display", monospace;
+  color: white;
+  font-size: 3em;
+}
+
+.hours {
+  font-size: 4em;
+}
+
+/* neon */
+.green {
+  text-shadow: 0 0 5px #7bffce, 0 0 10px #7bffce, 0 0 20px #7bffce,
+    0 0 40px #7bffce, 0 0 80px #7bffce, 0 0 90px #7bffce, 0 0 100px #7bffce,
+    0 0 150px #7bffce;
+}
+
+.blue {
+  text-shadow: 0 0 5px #7bacff, 0 0 10px #7bacff, 0 0 20px #7bacff,
+    0 0 40px #7bacff, 0 0 80px #7bacff, 0 0 90px #7bacff, 0 0 100px #7bacff,
+    0 0 150px #7bacff;
+}
+
+.pink {
+  text-shadow: 0 0 5px #ff7bac, 0 0 10px #ff7bac, 0 0 20px #ff7bac,
+    0 0 40px #ff7bac, 0 0 80px #ff7bac, 0 0 90px #ff7bac, 0 0 100px #ff7bac,
+    0 0 150px #ff7bac;
+}
+
+/* buttons */
+
+.btn {
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2em;
+  text-align: center;
+  padding: 0;
+  margin-right: 7px;
+  line-height: 40px;
+}
+.btn-pink {
+  background: #ff7bac;
+}
+.btn-green {
+  background: #7bffce;
+}
+.btn-blue {
+  background: #7bacff;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px #fff;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-select {
+  border: 3px solid #fff;
+  width: 43px;
+  height: 43px;
+}
+
+
+
+@media only screen and (max-width: 560px) {
+  .hours {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hours {
+    font-size: 2.5em;
+  }
+}
